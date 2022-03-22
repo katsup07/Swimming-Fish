@@ -1,0 +1,18 @@
+body {
+    background: cornflowerblue;
+    background-image: url('./under-the-sea.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+  }
+
+  .fish {
+    position: relative;
+    --x: 0px;
+    --y: 0px;
+    --rotateH: 0;
+    --rotateV: 180px;
+    transform: translateX(var(--x)) translateY(var(--y)) rotate(var(--rotateV)) rotateY(var(--rotateH));
+    /* Rotate last otherwise strange behavior because of translating after.  */
+    transition: transform 0.5s;
+  }
