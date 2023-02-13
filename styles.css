@@ -1,8 +1,8 @@
 body {
     background: cornflowerblue;
     background-image: url('./under-the-sea.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
     overflow-y: hidden;
   }
 
